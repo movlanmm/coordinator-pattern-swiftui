@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEDE6F9A2E0698A2005C7B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE6F952E0698A2005C7B71 /* Assets.xcassets */; };
+		CEDE6F9B2E0698A2005C7B71 /* CoordinatorPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F822E0698A2005C7B71 /* CoordinatorPatternApp.swift */; };
+		CEDE6F9C2E0698A2005C7B71 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F842E0698A2005C7B71 /* DetailsView.swift */; };
+		CEDE6F9D2E0698A2005C7B71 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F862E0698A2005C7B71 /* ForgotPassword.swift */; };
+		CEDE6F9E2E0698A2005C7B71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F882E0698A2005C7B71 /* HomeView.swift */; };
+		CEDE6F9F2E0698A2005C7B71 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F8A2E0698A2005C7B71 /* LoginView.swift */; };
+		CEDE6FA02E0698A2005C7B71 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F8C2E0698A2005C7B71 /* ProductsView.swift */; };
+		CEDE6FA12E0698A2005C7B71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F8E2E0698A2005C7B71 /* ContentView.swift */; };
+		CEDE6FA22E0698A2005C7B71 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F902E0698A2005C7B71 /* SignUpView.swift */; };
+		CEDE6FA32E0698A2005C7B71 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F932E0698A2005C7B71 /* Coordinator.swift */; };
+		CEDE6FA42E0698A2005C7B71 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6F972E0698A2005C7B71 /* AuthViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CEDE6F542E0691B8005C7B71 /* CoordinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE6F822E0698A2005C7B71 /* CoordinatorPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternApp.swift; sourceTree = "<group>"; };
+		CEDE6F842E0698A2005C7B71 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CEDE6F862E0698A2005C7B71 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		CEDE6F882E0698A2005C7B71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEDE6F8A2E0698A2005C7B71 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEDE6F8C2E0698A2005C7B71 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		CEDE6F8E2E0698A2005C7B71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDE6F902E0698A2005C7B71 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CEDE6F932E0698A2005C7B71 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CEDE6F952E0698A2005C7B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDE6F972E0698A2005C7B71 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEDE6F562E0691B8005C7B71 /* CoordinatorPattern */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoordinatorPattern;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEDE6F512E0691B8005C7B71 /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		CEDE6F4B2E0691B8005C7B71 = {
 			isa = PBXGroup;
 			children = (
-				CEDE6F562E0691B8005C7B71 /* CoordinatorPattern */,
+				CEDE6F992E0698A2005C7B71 /* CoordinatorPattern */,
 				CEDE6F552E0691B8005C7B71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,120 @@
 				CEDE6F542E0691B8005C7B71 /* CoordinatorPattern.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDE6F832E0698A2005C7B71 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F822E0698A2005C7B71 /* CoordinatorPatternApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEDE6F852E0698A2005C7B71 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F842E0698A2005C7B71 /* DetailsView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		CEDE6F872E0698A2005C7B71 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F862E0698A2005C7B71 /* ForgotPassword.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		CEDE6F892E0698A2005C7B71 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F882E0698A2005C7B71 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEDE6F8B2E0698A2005C7B71 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F8A2E0698A2005C7B71 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CEDE6F8D2E0698A2005C7B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F8C2E0698A2005C7B71 /* ProductsView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		CEDE6F8F2E0698A2005C7B71 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F8E2E0698A2005C7B71 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CEDE6F912E0698A2005C7B71 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F902E0698A2005C7B71 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CEDE6F922E0698A2005C7B71 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F8F2E0698A2005C7B71 /* Root */,
+				CEDE6F8B2E0698A2005C7B71 /* Login */,
+				CEDE6F912E0698A2005C7B71 /* SignUp */,
+				CEDE6F872E0698A2005C7B71 /* ForgotPassword */,
+				CEDE6F892E0698A2005C7B71 /* Home */,
+				CEDE6F852E0698A2005C7B71 /* Details */,
+				CEDE6F8D2E0698A2005C7B71 /* Products */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CEDE6F942E0698A2005C7B71 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F932E0698A2005C7B71 /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CEDE6F962E0698A2005C7B71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F952E0698A2005C7B71 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEDE6F982E0698A2005C7B71 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F972E0698A2005C7B71 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEDE6F992E0698A2005C7B71 /* CoordinatorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6F832E0698A2005C7B71 /* App */,
+				CEDE6F942E0698A2005C7B71 /* Navigation */,
+				CEDE6F922E0698A2005C7B71 /* Modules */,
+				CEDE6F982E0698A2005C7B71 /* ViewModels */,
+				CEDE6F962E0698A2005C7B71 /* Resources */,
+			);
+			path = CoordinatorPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +190,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CEDE6F562E0691B8005C7B71 /* CoordinatorPattern */,
 			);
 			name = CoordinatorPattern;
 			packageProductDependencies = (
@@ -109,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE6F9A2E0698A2005C7B71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE6F9B2E0698A2005C7B71 /* CoordinatorPatternApp.swift in Sources */,
+				CEDE6F9C2E0698A2005C7B71 /* DetailsView.swift in Sources */,
+				CEDE6F9D2E0698A2005C7B71 /* ForgotPassword.swift in Sources */,
+				CEDE6F9E2E0698A2005C7B71 /* HomeView.swift in Sources */,
+				CEDE6F9F2E0698A2005C7B71 /* LoginView.swift in Sources */,
+				CEDE6FA02E0698A2005C7B71 /* ProductsView.swift in Sources */,
+				CEDE6FA12E0698A2005C7B71 /* ContentView.swift in Sources */,
+				CEDE6FA22E0698A2005C7B71 /* SignUpView.swift in Sources */,
+				CEDE6FA32E0698A2005C7B71 /* Coordinator.swift in Sources */,
+				CEDE6FA42E0698A2005C7B71 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
